@@ -1,8 +1,20 @@
 /* Font
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif; */
+body{
+    background-color: black;
+}
+.titulos{
+    text-align: center;
+    color: white;
+}
 
-.lineal{
-    display: block;
-    text-align: right;
+footer h4{
+    color: white;
+    text-align: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+
 }
