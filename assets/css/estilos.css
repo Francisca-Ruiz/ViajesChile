@@ -16,5 +16,41 @@ footer h4{
 footer a{
     color: white;
     text-decoration: none;
-
+    
 }
+.fab{
+    margin-left: 5%;
+}
+
+footer{
+    background-color: rgba(245, 141, 56, 0.89);
+}
+/* .destacados{
+    background-color: rgba(245, 141, 56, 0.89);
+} */
+
+.navbar-brand{
+    width: 50px;
+}
+.navbar-brand img{
+    width: 100%;
+}
+
+/* efectos */
+.navbar{
+    background-color: transparent;
+    -webkit-transition: background-color 1s; /* Safari */
+    transition: background-color 1s;
+}
+
+.icono{
+    background-color: rgba(245, 141, 56, 0.89);
+}
+/* .navbar-light .navbar-nav .nav-link.active{
+    color: white;
+}
+.navbar-light .navbar-toggler{
+    color: white;
+    border-color: white;
+} */
+
