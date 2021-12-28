@@ -54,3 +54,17 @@ footer{
     border-color: white;
 } */
 
+label{
+    color: white;
+}
+.btn-primary{
+    background-color: rgba(245, 141, 56, 0.89);
+}
+
+
+/* final */
+@media (max-width: 768px) {
+    .card {
+      margin-bottom:30px;
+    }
+   }

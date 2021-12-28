@@ -34,16 +34,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item d-none d-lg-block">
+                <a class="nav-link active" aria-current="page" href="#quienessomos">Quienes Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Quienes Somos</a>
+                <a class="nav-link active" aria-current="page" href="#destacados">Destacados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Destacados</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
               </li>
               
             </ul>
@@ -52,7 +52,7 @@
       </nav>
 
 
-      <header>
+      <header id="inicio">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -76,32 +76,33 @@
           </div>
       </header>
 
-      <section class="Quienes somos mt-5">
-      <h2 class="titulos" >¿Quienes Somos?</h2>
+      <section class="Quienes somos mt-5 d-none d-lg-block"id="quienessomos">
+        <h2 class="titulos" >¿Quienes Somos?</h2>
         
-      <div class="container mt-5">
+        <div class="container mt-5">
             <div class="row align-items-start">
-              <div class="col-md-4">
-                <div class="card text-white bg-dark mb-3">
-                    <div class="text-center icono p-2">
-                        <i class="fas fa-plane"></i>
-                    </div>
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card text-white bg-dark mb-3">
+                <div class="col-md-4">
+                    <div class="card text-white bg-dark mb-3">
+                        <div class="text-center icono p-2">
+                            <i class="fas fa-plane"></i>
+                        </div>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          </div>
-                          <div class="text-center icono p-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-white bg-dark mb-3">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="text-center icono p-2">
                           <i class="fas fa-mountain"></i>
                         </div>
-                  </div>
-              </div>
-              <div class="col-md-4">
+                    </div>
+                </div>
+
+            <div class="col-md-4">
                 <div class="card text-white bg-dark mb-3">
                     <div class="text-center icono p-2">
                         <i class="fas fa-route"></i>
@@ -114,7 +115,7 @@
             </div>
       </section>
 
-      <section class="Destacados mt-5">
+      <section class="Destacados mt-5" id="destacados">
         <h2 class="titulos" >Destacados</h2>
         <div class="container mt-5">
             <div class="row align-items-start">
@@ -159,14 +160,29 @@
 
 
       <!-- Falta cuadro de contato javascript -->
-      <section class="Contacto mt-5">
+      <section class="Contacto mt-3" id="contacto">
           <h2 class="titulos">Contacto</h2>
-          
-
+        <div class="container">
+            <form>
+                <div class="mb-3">
+                  <label for="" class="form-label">Nombre</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Asunto</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Mensaje</label>
+                    <textarea class="form-control" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary enviarMensaje">Enviar</button>
+              </form>
+        </div>
       </section>
 
       <footer>
-        <div class="fin p-4">
+        <div class="fin p-4 mt-3">
         <div class="container text-center">
             <div class="row row-col-2">
               <div class="col-6"><h4>VIAJES CHILE</h4></div>
