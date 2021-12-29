@@ -61,6 +61,13 @@ label{
     background-color: rgba(245, 141, 56, 0.89);
 }
 
+.destacados .card{
+    border: 4px solid rgba(245, 141, 56, 0.89);
+}
+.btn{
+    background-color: transparent;
+}
+
 
 /* final */
 @media (max-width: 768px) {
