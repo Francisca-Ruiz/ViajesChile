@@ -7,8 +7,14 @@ body{
 .titulos{
     text-align: center;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
-
+p .card-text{
+    font-family: 'Open Sans', sans-serif;
+}
+.card img{
+    max-height: 170px;
+}
 footer h4{
     color: white;
     text-align: center;
