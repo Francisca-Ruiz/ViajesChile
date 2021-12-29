@@ -1,9 +1,11 @@
 /* Font
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif; */
+
 body{
     background-color: black;
 }
+/* Agregando font */
 .titulos{
     text-align: center;
     color: white;
@@ -12,12 +14,15 @@ body{
 p .card-text{
     font-family: 'Open Sans', sans-serif;
 }
+
+/* Ajustando img */
 .card img{
     max-height: 170px;
 }
 footer h4{
     color: white;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 footer a{
     color: white;
